@@ -6,7 +6,7 @@ export default class BasePage{
     constructor(page:Page){
         this.page = page;
     }
-
+//tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt8888************************************************
     // Common method to navigate to a URL
     async navigateTo(url: string) {
         await this.page.goto(url);
